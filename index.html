@@ -8,7 +8,6 @@
 </head>
 
 <body>
-  <!-- <h1>Matching Days</h1> -->
   <fieldset>
     <legend>
       <h1>Matching Days</h1>
@@ -16,23 +15,28 @@
     <div class="container">
       <div class="barlist">
         <ul class="listDays">
-          <li>Monday</li>
-          <li>Tuesday</li>
-          <li>Wednesday</li>
-          <li>Thursday</li>
-          <li>Friday</li>
-          <li>Saturday</li>
-          <li>Sunday</li>
+          <b>
+          <li class="day">Sunday</li>
+          <li class="day">Monday</li>
+          <li class="day">Tuesday</li>
+          <li class="day">Wednesday</li>
+          <li class="day">Thursday</li>
+          <li class="day">Friday</li>
+          <li class="day">Saturday</li>
+        </b>
         </ul>
 
       </div>
       <div class="inputs">
-        First date:
-        <input type="date" name="FirstDate">
-        Second date:
-        <input type="date" name="SecondDate">
+        <b>First date:</b>
+        <!-- <input type="date" class="FirstDate"> -->
+        <input type="date" name="firstDate" class="firstDate">
 
-        <button type="button" id="Selectbtn">Select</button>
+        <b>Second date:</b>
+        <!-- <input type="date" class="SecondDate"> -->
+        <input type="date" name="secondDate" class="secondDate">
+
+        <!-- <button type="button" id="Selectbtn" class="Selectbtn">Select</button> -->
       </div>
     </div>
   </fieldset>
