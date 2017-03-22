@@ -1,51 +1,66 @@
-body{
-    background-image: url("image.jpg");
+body
+{
+    background-image: url('image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 h1
 {
-  box-sizing: border-box;
-  width: 135px
+    box-sizing: border-box;
+    width: 135px
+    margin-top: 3em;
+    width: 13em;
+    margin-left: 0;
+    padding: 12px 20px 12px 40px;
+    list-style: none;
+    text-align: center;
+    text-align: center;
+    border: 1px solid #080808;
+    border-radius: 11px;
+}
+.listDays
+{
+    margin-top: 5em;
+    margin-left: 8em;
+}
+li
+{
+    display: inline-block;
+
+    box-sizing: border-box;
+    width: 135px
+    margin-top: 3em;
+    padding: 12px 20px 12px 40px;
+    list-style: none;
+    text-align: center;
+    border: 1px solid #080808;
+}
+.inputs
+{
+    margin-top: 5em;
+    margin-bottom: 2em;
+    margin-left: 18em;
+}
+#Selectbtn
+{
+    width: 120px;
+    padding-bottom: 3px;
+}
+.styleOne
+{
+    background-color: blue;
+}
+.styleTwo
+{
+    background-color: red;
+}
+.styleMatch
+{
+    background-color: green;
+}
+footer
+{
   margin-top: 3em;
-  padding: 12px 20px 12px 40px;
-  list-style: none;
-  text-align: center;
-  border: 1px solid #080808;
-  text-align: center;
-  width: 13em;
-  border-radius: 11px;
-  margin-left: 0em;
-}
-.listDays{
-  margin-top: 5em;
-  margin-left: 8em;
-}
-li{
-  box-sizing: border-box;
-  width: 135px
-  margin-top: 3em;
-  padding: 12px 20px 12px 40px;
-  list-style: none;
-  text-align: center;
-  border: 1px solid #080808;
-  display: inline-block;
-}
-.inputs{
-  margin-left: 18em;
-  margin-top: 5em;
-  margin-bottom: 2em;
-}
-#Selectbtn{
-  width: 120px;
-  padding-bottom: 3px;
-}
-.styleOne{
-  background-color: blue;
-}
-.styleTwo{
-  background-color: red;
-}
-.styleMatch{
-  background-color: green;
+  margin-left: 36em;
+  font-size: 10px;
 }

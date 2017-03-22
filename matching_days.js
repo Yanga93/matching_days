@@ -5,7 +5,7 @@ var secDateInput = document.querySelector(".secondDate");
 // var btn = document.querySelector(".Selectbtn");
 var daysArray = document.getElementsByClassName("day");
 var myCalender = document.getElementById("calender");
-// console.log(daysClass);
+// console.log(daysArray);
 
 
 inputs.addEventListener("change", function(){
@@ -13,11 +13,9 @@ inputs.addEventListener("change", function(){
 
   var d1 = new Date(firstDateInput.value);
   var d2 = new Date(secDateInput.value);
-  //  console.log(d1);
 
   var isDay1 = d1.getDay();
   var isDay2 = d2.getDay();
-  // console.log(isDay1);
 
   // get a color for one weekday e.g Monday
   for (var i = 0; i < daysArray.length; i++) {
